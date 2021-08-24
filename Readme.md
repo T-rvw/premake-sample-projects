@@ -21,7 +21,7 @@ test [`prebuildcommands`](https://premake.github.io/docs/prebuildcommands)/[`pos
 test [`buildcommands`](https://premake.github.io/docs/buildcommands)/[`buildinputs`](https://premake.github.io/docs/buildinputs)/[`buildoutputs`](https://premake.github.io/docs/buildoutputs)/[`buildmessage`](https://premake.github.io/docs/buildmessage)/[`compilebuildoutputs`](https://premake.github.io/docs/compilebuildoutputs) (and some tokens and per file configuration) (premake5 only)
 
 - project-06-custom-rule:
-test [custom rule](https://premake.github.io/docs/Custom-Rules) ([`rule`](https://premake.github.io/docs/rule), [`rules`](https://premake.github.io/docs/rules), [`fileExtension`](https://premake.github.io/docs/fileExtension)) (and some tokens) (premake5 only)
+test [custom rule](https://premake.github.io/docs/Custom-Rules) ([`rule`](https://premake.github.io/docs/rule), [`rules`](https://premake.github.io/docs/rules), [`fileExtension`](https://premake.github.io/docs/fileExtension), [`propertydefinition`](https://premake.github.io/docs/propertydefinition)) (and some tokens) (premake5 only)
 
 ## Results
 
@@ -50,4 +50,4 @@ Modules:
 |Pch|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |Pre/post build|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: (Fixed)|:heavy_check_mark: (Fixed)|:heavy_check_mark:|
 |custom build|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: (Fixed)|:heavy_check_mark: (Fixed)|:heavy_check_mark:|
-|custom rule|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
+|custom rule|:x:|:x: (doesn't support switch)|:x:|:heavy_check_mark:|:x:|:x:|:x:|
