@@ -22,7 +22,7 @@ rule "myrule"
 	buildmessage 'custom rule %{file.relpath} %{file.reldirectory}/%{file.basename}'
 	--buildinputs { "%{file.relpath}" }
 	buildoutputs { "%{file.reldirectory}/%{file.basename}" }
-	buildcommands { "[copy] %{file.relpath} %{file.reldirectory}%{file.basename}" } -- msvc action dislikes /
+	buildcommands { "%{copy} %{file.relpath} %{file.reldirectory}%{file.basename}" } -- msvc action dislikes /
 
 workspace "Project"
 	location(LocationDir)
