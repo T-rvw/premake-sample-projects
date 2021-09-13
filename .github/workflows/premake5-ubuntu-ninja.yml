@@ -24,7 +24,9 @@ jobs:
     - name: checkout premake5
       uses: actions/checkout@v2
       with:
-          repository: premake/premake-core
+          #repository: premake/premake-core
+          repository: Jarod42/premake-core #tmp
+          ref: ruleRefacto #tmp
           path: premake-build
 
     - name: Build premake5

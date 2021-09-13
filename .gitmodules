@@ -7,3 +7,4 @@
 [submodule "submodules/premake-ninja"]
 	path = submodules/premake-ninja
 	url = https://github.com/jimon/premake-ninja.git
+	branch = WIP_CustomRule
