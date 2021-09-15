@@ -22,7 +22,7 @@ jobs:
     - name: checkout premake5
       uses: actions/checkout@v2
       with:
-        repository: premake/premake-core
+        repository: T-rvw/premake-core
         path: premake-build
 
     - name: Add msbuild to PATH
