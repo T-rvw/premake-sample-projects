@@ -19,5 +19,8 @@ project "app"
 	kind "ConsoleApp"
 
 	files {path.join(Root, "src/main.cpp")}
-
-	openmp "On"
+	
+	filter "toolset:msc*"
+		buildoptions "/openmp"
+	filter "toolset:not msc*"
+		buildoptions "-fopenmp"
